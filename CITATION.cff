@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "HyMARL: hybrid multi-agent reinforcement learning for UAV-assisted wireless mesh networks"
+license: MIT
+repository-code: "https://github.com/yazanjer/hymarl-uav-wmn"
+authors:
+  - family-names: Ismael
+    given-names: Bahaa Muneer
+  - family-names: Ngadi
+    given-names: Md Asri
+    orcid: "https://orcid.org/0000-0003-4907-6359"
+  - family-names: Sharif
+    given-names: Johan Bin Mohamad
+  - family-names: Taha
+    given-names: Mustafa Sabah
+  - family-names: Aljeroudi
+    given-names: Yazan
+    orcid: "https://orcid.org/0000-0002-4894-6001"

@@ -1,0 +1,15 @@
+=== IMPROVE S=8 ep=50 ===
+   heuristics A10 done (0.4 min)
+   heuristics A5 done (0.6 min)
+   heuristics A20 done (1.5 min)
+   heuristics B10 done (1.9 min)
+   heuristics C10 done (2.2 min)
+   hysteresis seed 1/8 (4.2 min)
+   hysteresis seed 2/8 (5.9 min)
+   hysteresis seed 3/8 (7.8 min)
+   hysteresis seed 4/8 (9.7 min)
+   hysteresis seed 5/8 (11.6 min)
+   hysteresis seed 6/8 (13.5 min)
+   hysteresis seed 7/8 (15.3 min)
+   hysteresis seed 8/8 (17.3 min)
+=== IMPROVE DONE in 17.3 min ===

@@ -1,0 +1,98 @@
+=== Headline Scenario A: S=8 seeds, 50 episodes ===
+  seed 1 Classic   delay=228.5 thr=20.3 pdr=0.24 fair=0.41 (1s)
+  seed 1 B1        delay=69.1 thr=16.0 pdr=0.18 fair=0.35 (63s)
+  seed 1 B2        delay=1426.6 thr=9.9 pdr=0.12 fair=0.16 (62s)
+  seed 1 Proposed  delay=39.4 thr=34.6 pdr=0.39 fair=0.51 (63s)
+  seed 2 Classic   delay=231.2 thr=20.1 pdr=0.24 fair=0.41 (1s)
+  seed 2 B1        delay=54.8 thr=18.3 pdr=0.23 fair=0.40 (60s)
+  seed 2 B2        delay=103.2 thr=19.7 pdr=0.21 fair=0.36 (61s)
+  seed 2 Proposed  delay=31.7 thr=34.7 pdr=0.41 fair=0.56 (63s)
+  seed 3 Classic   delay=231.6 thr=20.3 pdr=0.24 fair=0.40 (1s)
+  seed 3 B1        delay=68.2 thr=18.0 pdr=0.21 fair=0.35 (63s)
+  seed 3 B2        delay=127.6 thr=19.2 pdr=0.22 fair=0.38 (64s)
+  seed 3 Proposed  delay=65.5 thr=18.0 pdr=0.20 fair=0.41 (63s)
+  seed 4 Classic   delay=230.7 thr=20.6 pdr=0.24 fair=0.41 (1s)
+  seed 4 B1        delay=52.9 thr=20.1 pdr=0.22 fair=0.35 (60s)
+  seed 4 B2        delay=72.9 thr=19.6 pdr=0.23 fair=0.37 (61s)
+  seed 4 Proposed  delay=84.8 thr=34.4 pdr=0.41 fair=0.52 (63s)
+  seed 5 Classic   delay=220.3 thr=21.0 pdr=0.24 fair=0.40 (1s)
+  seed 5 B1        delay=78.5 thr=20.1 pdr=0.25 fair=0.35 (61s)
+  seed 5 B2        delay=87.8 thr=19.5 pdr=0.22 fair=0.36 (63s)
+  seed 5 Proposed  delay=28.1 thr=41.0 pdr=0.44 fair=0.56 (66s)
+  seed 6 Classic   delay=214.2 thr=20.8 pdr=0.24 fair=0.41 (1s)
+  seed 6 B1        delay=53.4 thr=19.7 pdr=0.23 fair=0.38 (60s)
+  seed 6 B2        delay=133.3 thr=19.3 pdr=0.20 fair=0.33 (77s)
+  seed 6 Proposed  delay=22.7 thr=44.2 pdr=0.47 fair=0.59 (65s)
+  seed 7 Classic   delay=212.9 thr=20.3 pdr=0.24 fair=0.41 (1s)
+  seed 7 B1        delay=51.0 thr=20.2 pdr=0.23 fair=0.36 (60s)
+  seed 7 B2        delay=79.7 thr=17.4 pdr=0.22 fair=0.39 (64s)
+  seed 7 Proposed  delay=30.7 thr=36.4 pdr=0.41 fair=0.56 (56s)
+  seed 8 Classic   delay=216.8 thr=20.2 pdr=0.24 fair=0.41 (1s)
+  seed 8 B1        delay=52.0 thr=17.4 pdr=0.21 fair=0.37 (50s)
+  seed 8 B2        delay=130.9 thr=20.5 pdr=0.24 fair=0.34 (54s)
+  seed 8 Proposed  delay=40.3 thr=43.3 pdr=0.46 fair=0.52 (58s)
+
+=== MEAN +/- SD (Scenario A, N=10) ===
+delay         | Classic  223.28±8.08 | B1       59.98±10.40 | B2       270.25±467.83 | Proposed 42.91±21.33  | Wilx p(vsB1)=0.148 p(vsB2)=0.016
+pdr           | Classic  0.24±0.00 | B1       0.22±0.02 | B2       0.21±0.04 | Proposed 0.40±0.09  | Wilx p(vsB1)=0.016 p(vsB2)=0.016
+throughput    | Classic  20.45±0.30 | B1       18.72±1.55 | B2       18.12±3.43 | Proposed 35.82±8.25  | Wilx p(vsB1)=0.008 p(vsB2)=0.016
+chanUtil      | Classic  0.69±0.01 | B1       0.71±0.02 | B2       0.72±0.03 | Proposed 0.64±0.07  | Wilx p(vsB1)=0.039 p(vsB2)=0.039
+cci           | Classic  -67.88±0.01 | B1       -62.19±0.80 | B2       -65.18±3.66 | Proposed -65.10±1.71  | Wilx p(vsB1)=0.008 p(vsB2)=0.641
+specEff       | Classic  1.02±0.02 | B1       0.94±0.08 | B2       0.91±0.17 | Proposed 0.60±0.14  | Wilx p(vsB1)=0.008 p(vsB2)=0.016
+fairness      | Classic  0.41±0.00 | B1       0.36±0.02 | B2       0.34±0.07 | Proposed 0.53±0.05  | Wilx p(vsB1)=0.008 p(vsB2)=0.008
+loadVar       | Classic  47.73±2.66 | B1       51.04±8.96 | B2       51.53±11.43 | Proposed 14.31±3.54  | Wilx p(vsB1)=0.008 p(vsB2)=0.008
+handover      | Classic  0.02±0.00 | B1       0.02±0.00 | B2       0.02±0.00 | Proposed 0.04±0.00  | Wilx p(vsB1)=0.008 p(vsB2)=0.008
+energyPerBit  | Classic  0.00±0.00 | B1       0.00±0.00 | B2       0.00±0.01 | Proposed 0.00±0.00  | Wilx p(vsB1)=0.008 p(vsB2)=0.008
+sinr_mean     | Classic  -4.82±0.03 | B1       -5.36±0.45 | B2       -5.63±0.61 | Proposed -2.03±1.60  | Wilx p(vsB1)=0.008 p(vsB2)=0.016
+
+Friedman p: delay=0.0002 throughput=0.0011 (Bonferroni alpha=0.0167)
+
+Saved results to results/headline_A8log.mat / .csv
+=== FAIR (equal-K) comparison: S=8 ep=80 ===
+  seed 1 Proposed    delay=41.5 thr=35.3 fair=0.46 loadVar=12.7 (91s)
+  seed 1 MC-MATD3    delay=31.2 thr=41.3 fair=0.43 loadVar=46.7 (91s)
+  seed 1 B1-MC       delay=35.4 thr=43.7 fair=0.38 loadVar=59.8 (92s)
+  seed 1 B2-MC       delay=134.2 thr=32.3 fair=0.44 loadVar=52.4 (84s)
+  seed 1 Proposed-K1 delay=63.9 thr=18.7 fair=0.41 loadVar=19.8 (87s)
+  seed 2 Proposed    delay=54.8 thr=38.8 fair=0.49 loadVar=21.3 (85s)
+  seed 2 MC-MATD3    delay=54.2 thr=18.8 fair=0.39 loadVar=45.0 (85s)
+  seed 2 B1-MC       delay=27.7 thr=33.0 fair=0.48 loadVar=63.7 (91s)
+  seed 2 B2-MC       delay=103.7 thr=32.6 fair=0.42 loadVar=56.3 (83s)
+  seed 2 Proposed-K1 delay=65.2 thr=19.6 fair=0.41 loadVar=14.6 (77s)
+  seed 3 Proposed    delay=27.1 thr=44.6 fair=0.55 loadVar=13.5 (80s)
+  seed 3 MC-MATD3    delay=141.0 thr=33.1 fair=0.42 loadVar=58.0 (77s)
+  seed 3 B1-MC       delay=28.8 thr=41.2 fair=0.42 loadVar=53.4 (79s)
+  seed 3 B2-MC       delay=40.4 thr=39.2 fair=0.45 loadVar=44.8 (80s)
+  seed 3 Proposed-K1 delay=66.3 thr=18.5 fair=0.43 loadVar=15.1 (78s)
+  seed 4 Proposed    delay=44.4 thr=38.8 fair=0.55 loadVar=7.6 (82s)
+  seed 4 MC-MATD3    delay=23.1 thr=42.1 fair=0.50 loadVar=47.1 (94s)
+  seed 4 B1-MC       delay=28.7 thr=35.8 fair=0.45 loadVar=52.3 (75s)
+  seed 4 B2-MC       delay=46.1 thr=33.7 fair=0.44 loadVar=39.6 (76s)
+  seed 4 Proposed-K1 delay=58.7 thr=22.1 fair=0.42 loadVar=11.1 (80s)
+  seed 5 Proposed    delay=28.3 thr=42.7 fair=0.55 loadVar=9.9 (91s)
+  seed 5 MC-MATD3    delay=28.3 thr=45.2 fair=0.49 loadVar=43.1 (87s)
+  seed 5 B1-MC       delay=27.3 thr=37.1 fair=0.46 loadVar=45.5 (84s)
+  seed 5 B2-MC       delay=69.8 thr=30.3 fair=0.44 loadVar=55.8 (84s)
+  seed 5 Proposed-K1 delay=80.4 thr=23.2 fair=0.37 loadVar=11.7 (97s)
+  seed 6 Proposed    delay=39.1 thr=39.0 fair=0.50 loadVar=16.3 (101s)
+  seed 6 MC-MATD3    delay=21.6 thr=41.1 fair=0.46 loadVar=59.5 (94s)
+  seed 6 B1-MC       delay=34.2 thr=38.0 fair=0.47 loadVar=56.6 (94s)
+  seed 6 B2-MC       delay=85.2 thr=42.4 fair=0.45 loadVar=48.8 (90s)
+  seed 6 Proposed-K1 delay=57.2 thr=21.7 fair=0.41 loadVar=9.2 (77s)
+  seed 7 Proposed    delay=40.8 thr=33.6 fair=0.51 loadVar=12.5 (95s)
+  seed 7 MC-MATD3    delay=44.4 thr=36.8 fair=0.45 loadVar=41.4 (78s)
+  seed 7 B1-MC       delay=24.8 thr=36.4 fair=0.51 loadVar=51.1 (80s)
+  seed 7 B2-MC       delay=33.5 thr=39.6 fair=0.51 loadVar=45.2 (77s)
+  seed 7 Proposed-K1 delay=59.2 thr=21.4 fair=0.40 loadVar=12.5 (94s)
+  seed 8 Proposed    delay=69.3 thr=29.3 fair=0.46 loadVar=14.5 (93s)
+  seed 8 MC-MATD3    delay=49.0 thr=21.7 fair=0.39 loadVar=49.8 (74s)
+  seed 8 B1-MC       delay=1857.8 thr=3.0 fair=0.04 loadVar=50.3 (74s)
+  seed 8 B2-MC       delay=52.9 thr=31.1 fair=0.45 loadVar=61.3 (76s)
+  seed 8 Proposed-K1 delay=60.6 thr=20.0 fair=0.43 loadVar=14.7 (79s)
+
+Saved results/fairAlog.mat
+KEY: Proposed vs MC-MATD3 (equal K=3) Wilcoxon p: delay=0.461 throughput=0.742
+make_report: wrote figures + ch4/ch5/ch6 result tables from headline_A8log.mat (S=8)
+make_report_campaign: wrote scalability, scenarios, ablation, sensitivity artefacts.
+make_report_fair: wrote ch4_fair.tex and ch4_fair_verdict.tex (alpha=0.0125)
+run_relog done in 81.7 min
